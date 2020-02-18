@@ -1,0 +1,83 @@
+body{
+	background-color: green;
+}
+
+#all{
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+div{
+	font-family: sans-serif;
+}
+
+h1, h2{
+	font-family: serif;
+}
+#banner img{
+	width: 100%;
+}
+
+#nav ul{
+	padding: 0; 
+	list-style: none;
+	overflow: hidden;
+
+}
+
+#nav li{
+	height: 90%;
+	padding: 1%;
+	display: inline-block;
+	float: left;
+}
+
+#nav a{
+	text-decoration: none;
+	color: green;
+}
+
+#nav li:hover:not(.active), #nav a:hover:not(.active){
+	background-color: lightgreen;
+	color: white;
+}
+
+.active{
+	background-color: green;
+	color: whitesmoke;
+}
+
+#left{
+	padding: 2%;
+	width:30%;
+	float:left;
+	text-align: center;
+}
+
+#content{
+	padding: 2%;
+	width:60%;
+	float: left;
+	border-left: 3px solid lime;
+}
+
+#footer{
+	clear: both;
+	padding: 1%;
+	text-align: center;
+}
+
+#form{
+	overflow: hidden;
+}
+
+.first{
+	float: left;
+	width: 25%;
+}
+
+.second{
+float: left;
+width: 70%;
+}
